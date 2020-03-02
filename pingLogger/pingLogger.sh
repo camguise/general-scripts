@@ -25,5 +25,3 @@ echo "" > "${LogFile}"
 open "${LogFile}"
 
 ping -i "${PingInterval}" -c "${PingCount}" --apple-time "${IPAddress}" >> "${LogFile}"
-
-echo "Log file saved to ${LogFile}"
