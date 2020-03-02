@@ -1,9 +1,25 @@
 #!/bin/zsh
 
+# Fixed variables
+DateStamp=$(/bin/date '+%Y-%m-%d_%H%M%S')
 IPAddress="$1"
-LogFile="$HOME/Downloads/PingMonitor.log"
-PingInterval="10" # Seconds
-PingCount="2"
+
+# Default values
+LogDir="$HOME/Downloads"
+PingInterval=10 # Seconds
+PingHours=1
+
+## MAIN SCRIPT ##
+
+# (Seconds per hour / Pings per second) x Number of hours
+PingCount=$(( (3600/$PingInterval)*PingHours ))
+
+LogFile="${LogDir}/PingLogger_${DateStamp}.log"
+
+echo "Log: ${LogFile}"
+echo "IP: ${IPAddress}"
+echo "Count: ${PingCount}"
+exit
 
 echo "" > "${LogFile}"
 
