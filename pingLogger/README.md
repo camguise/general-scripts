@@ -15,6 +15,6 @@ Count: 360
 There are two variables available inside the script which can be overridden by the user is desired.
 
 | Variable  | Default Value   | Description                                |
-| --------- |:---------------:| ------------------------------------------ |
+| :-------- |:---------------:| :----------------------------------------- |
 | LogDir    | $HOME/Downloads | The folder where log files should be saved |
 | PingHours | 1               | How many hours to run the ping for         |
