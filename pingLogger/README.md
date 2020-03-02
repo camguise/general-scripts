@@ -5,7 +5,7 @@ The log file will open in the macOS console application so that it can be monito
 
 ## Usage
 ```console
-$ ././pingLogger/pingLogger.sh 10.0.0.1
+$ ./pingLogger.sh 10.0.0.1
 Log: /Users/username/Downloads/PingLogger_2020-03-02_200758.log
 IP: 10.0.0.1
 Count: 360
