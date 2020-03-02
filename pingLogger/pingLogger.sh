@@ -3,10 +3,10 @@
 # Fixed variables
 DateStamp=$(/bin/date '+%Y-%m-%d_%H%M%S')
 IPAddress="$1"
-
-# Default values
-LogDir="$HOME/Downloads"
 PingInterval=10 # Seconds
+
+# User Varaible
+LogDir="$HOME/Downloads"
 PingHours=1
 
 ## MAIN SCRIPT ##
