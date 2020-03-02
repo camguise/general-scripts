@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 IPAddress="$1"
 LogFile="$HOME/Downloads/PingMonitor.log"
