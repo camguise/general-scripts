@@ -19,7 +19,6 @@ LogFile="${LogDir}/PingLogger_${DateStamp}.log"
 echo "Log: ${LogFile}"
 echo "IP: ${IPAddress}"
 echo "Count: ${PingCount}"
-exit
 
 echo "" > "${LogFile}"
 
